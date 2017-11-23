@@ -168,6 +168,7 @@ namespace BottomBar.Droid.Renderers
 
 				if (bottomBarPage.CurrentPage != null) {
 					SwitchContent (bottomBarPage.CurrentPage);
+					UpdateSelectedTabIndex(bottomBarPage.CurrentPage);
 				}
 			}
 		}
